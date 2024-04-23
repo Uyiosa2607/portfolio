@@ -7,14 +7,14 @@ export default function Home() {
     <Layout>
       <main>
         <div className="left-div flex-div">
-          <h2 className="heading">Lorem ipsum dolor sit. 👋</h2>
+          <h4 className="heading">Hello🖐️</h4>
+          <h3 className="dev-name">I'm Uyiosa</h3>
           <p className="desc">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Repudiandae, sapiente! Quidem, vero hic accusantium consectetur nemo
-            laboriosam asperiores, molestias, nostrum est sunt ex error amet!
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Dignissimos, ullam ab. Dignissimos!
+            laboriosam asperiores.
           </p>
+          <button className="hero-btn">Download Resume</button>
         </div>
         <div className="right-div flex-div">
           <div className="wrapper">
