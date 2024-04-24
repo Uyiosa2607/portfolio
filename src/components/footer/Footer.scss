@@ -1,15 +1,50 @@
 .footer {
+  margin: 40px 0;
+  position: absolute;
+  top: 80vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-    margin: 40px 0;
+  @media screen and (max-width: 600px) {
+    top: unset;
+    margin-top: 80px;
+    position: relative;
+  }
 
-    .icons-container {
-        display: flex;
-        align-items: center;
-        gap: 15px;
+  .wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-wrapper {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #1e1d1d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.2);
+      background: #cc9873;
     }
+  }
 
-    .footer-icon {
-        width: 20px;
-        height: 20px;
-    }
+  .icons-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .footer-icon {
+    width: 14px;
+    height: 14px;
+    object-fit: cover;
+  }
 }

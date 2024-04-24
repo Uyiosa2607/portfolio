@@ -7,39 +7,40 @@ export default function Home() {
     <Layout>
       <main>
         <div className="left-div flex-div">
-          <h4 className="heading">Hello🖐️</h4>
+          {/* <h4 className="heading">Hello🖐️</h4>
           <h3 className="dev-name">I'm Uyiosa</h3>
           <p className="desc">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Repudiandae, sapiente! Quidem, vero hic accusantium consectetur nemo
             laboriosam asperiores.
           </p>
-          <button className="hero-btn">Download Resume</button>
+          <button className="hero-btn">Download Resume</button> */}
+          <h2>Full-Stack web Developer</h2>
+          <p>
+            Meet a passionate developer crafting seamless solutions that
+            redefine user experiences. With a keen eye for detail and a
+            commitment to innovation
+          </p>
+          <div className="hero-button">
+            <button className="hero-btn">about me</button>
+            <button className="hero-btn">projects</button>
+          </div>
         </div>
         <div className="right-div flex-div">
-          <div className="wrapper">
-            <div className="section-container">
-              <div className="top wrapper-container">
-                <div className="icon-div">
-                  <img src="/folder.png" alt="folder icon" className="icon-img" />
-                  <span>My Projects</span>
-                </div>
-                <div className="icon-div">
-                  <img src="/user.png" alt="user icon" className="icon-img" />
-                  <span>About me</span>
-                </div>
-              </div>
-              <div className="bottom wrapper-container">
-                <div className="icon-div">
-                  <img src="/blog.png" alt="blog icon" className="icon-img" />
-                  <span>My Blog</span>
-                </div>
-                <div className="icon-div">
-                  <img src="/mail.png" alt="contact icon" className="icon-img" />
-                  <span>Contact me</span>
-                </div>
-              </div>
-            </div>
+          <div className="hero-image-container">
+            <img
+              className="hero-img"
+              style={{
+                marginTop: "18px",
+                height: "320px",
+                width: "320px",
+                objectFit: "cover",
+                borderRadius: "50%",
+                // background: "#d3d3d4",
+              }}
+              src="/avatar.png"
+              alt="hero"
+            />
           </div>
         </div>
       </main>
