@@ -7,14 +7,6 @@ export default function Home() {
     <Layout>
       <main>
         <div className="left-div flex-div">
-          {/* <h4 className="heading">Hello🖐️</h4>
-          <h3 className="dev-name">I'm Uyiosa</h3>
-          <p className="desc">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Repudiandae, sapiente! Quidem, vero hic accusantium consectetur nemo
-            laboriosam asperiores.
-          </p>
-          <button className="hero-btn">Download Resume</button> */}
           <h2>Full-Stack web Developer</h2>
           <p>
             Meet a passionate developer crafting seamless solutions that
@@ -36,7 +28,6 @@ export default function Home() {
                 width: "320px",
                 objectFit: "cover",
                 borderRadius: "50%",
-                // background: "#d3d3d4",
               }}
               src="/avatar.png"
               alt="hero"
