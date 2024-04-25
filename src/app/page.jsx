@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Layout from "@/components/layout/Layout";
+import Link from "next/link";
 import "./home.scss";
 
 export default function Home() {
@@ -7,15 +8,15 @@ export default function Home() {
     <Layout>
       <main>
         <div className="left-div flex-div">
-          <h2>Full-Stack web Developer</h2>
+          <h2>Full Stack web Developer</h2>
           <p>
             Meet a passionate developer crafting seamless solutions that
             redefine user experiences. With a keen eye for detail and a
             commitment to innovation
           </p>
           <div className="hero-button">
-            <button className="hero-btn">about me</button>
-            <button className="hero-btn">projects</button>
+            <Link href="/about"><button className="hero-btn">about me</button></Link>
+            <Link href="#"><button className="hero-btn">projects</button></Link>
           </div>
         </div>
         <div className="right-div flex-div">
