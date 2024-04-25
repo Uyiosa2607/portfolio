@@ -1,4 +1,4 @@
-main {
+.main {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -17,8 +17,8 @@ main {
 
   .left-div {
     @media screen and (max-width: 600px) {
-        order: 2;
-      }
+      order: 2;
+    }
 
     h2 {
       text-transform: capitalize;
@@ -37,7 +37,7 @@ main {
       width: 65%;
       margin: 10px 0;
       font-weight: 400;
-      font-family: "Ubuntu Mono", monospace;
+      // font-family: "Ubuntu Mono", monospace;
       font-size: 16px;
       line-height: 1.1;
 
@@ -79,9 +79,25 @@ main {
       }
     }
 
-    :nth-of-type(2) {
-      color: #1e1d1d;
+    .project-btn {
+      color: #ffffff;
+      background: #1e1d1d;
+      padding: 10px;
       background: #ffffff;
+      margin: 5px 0;
+      font-family: "Rubik Mono One", monospace;
+      border: none;
+      color: #1e1d1d;
+      font-size: 10px;
+      cursor: pointer;
+      transition: ease-in-out 0.3s;
+      border: 1px solid #1e1d1d;
+
+      &:hover {
+        background: #cc9873;
+        color: #ffffff;
+        border: none;
+      }
     }
   }
 

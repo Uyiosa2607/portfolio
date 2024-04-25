@@ -7,8 +7,18 @@ export default function About() {
     <Layout>
       <main className="about">
         <div className="about-left-div">
-          <div className="image-container">
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              alignItems: "center",
+              alignSelf: "flex-start",
+              justifyContent: "center",
+            }}
+            className="about-image-container"
+          >
             <Image
+              priority={true}
               className="about-img"
               src="/steve.png"
               width="800"
