@@ -15,8 +15,8 @@ export default function Home() {
             commitment to innovation
           </p>
           <div className="hero-button">
-            <Link href="/about"><button className="hero-btn">about me</button></Link>
-            <Link href="#"><button className="hero-btn">projects</button></Link>
+            <Link className="link-com" href="/about"><button className="hero-btn">about me</button></Link>
+            <Link className="link-com" href="/my-projects"><button className="hero-btn">projects</button></Link>
           </div>
         </div>
         <div className="right-div flex-div">
