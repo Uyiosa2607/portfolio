@@ -1,7 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 import styles from "./page.module.css";
+import Footer from "@/components/footer/Footer";
 
 export default function Home() {
 
@@ -9,15 +11,14 @@ export default function Home() {
     <Layout>
       <main className={styles.main}>
         <div className={`${styles["flex-div"]} ${styles["left-div"]}`}>
-          <h2 className={styles.heading}>Full Stack web Developer</h2>
+          <h2 className={styles.heading}>I'm a web Developer</h2>
           <p className={styles.paragraph}>
             Meet a passionate developer crafting seamless solutions that
             redefine user experiences. With a keen eye for detail and a
             commitment to innovation
           </p>
           <div className={styles["hero-button"]}>
-            <Link className="link-com" href="/about"><button className={styles["hero-btn"]}>about me</button></Link>
-            <Link className="link-com" href="/my-projects"><button className={styles["project-btn"]}>projects</button></Link>
+            <Link className="link-com" href="/my-projects"><button className={styles["hero-btn"]}>view projects</button></Link>
           </div>
         </div>
         <div className={`${styles["flex-div"]} ${styles["right-div"]}`} >
@@ -37,6 +38,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <Footer/>
     </Layout>
   );
 }

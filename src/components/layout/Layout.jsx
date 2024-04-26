@@ -1,7 +1,7 @@
 "use client"
-import Container from '@mui/material/Container';
 import "./style.scss"
-import Footer from '../footer/Footer';
+import Container from '@mui/material/Container';
+import Header from '../header/Header';
 
 export default function Layout({children}){
 
@@ -9,8 +9,8 @@ export default function Layout({children}){
        <div className="layout">
          <Container style={{ maxWidth: '1024px', minHeight: '100vh' }}>
             <div className="wrapper">
+              <Header/>
                 {children}
-               <Footer/>
             </div>
          </Container>
        </div>

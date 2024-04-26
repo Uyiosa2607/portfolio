@@ -57,7 +57,6 @@ export default function About() {
                 <li>Express.js</li>
                 <li>Prisma</li>
                 <li>MongoDB, MySQL, PostgreSQL, Supabase, SqLite</li>
-                <li>Boostrap</li>
               </ul>
             </div>
             <div className="skill-container">
@@ -66,7 +65,6 @@ export default function About() {
                 <li>Git / GitHub / GitLab</li>
                 <li>Heroku</li>
                 <li>Netlify</li>
-                <li>Boostrap</li>
               </ul>
             </div>
           </div>
