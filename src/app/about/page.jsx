@@ -32,42 +32,41 @@ export default function About() {
             <div className="about-me">
               <h3>About me</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-                aut velit sequi expedita, incidunt nesciunt Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Corporis obcaecati
-                voluptatem soluta! Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Nulla voluptatibus voluptates nesciunt..
+              I'm <span className="dev-name">Uyiosa</span>, a MERN stack developer passionate about crafting dynamic web applications. With expertise in MongoDB, Express.js, React.js, and Node.js, I specialize in building robust and scalable solutions that elevate user experiences. Let's turn your ideas into reality together.
               </p>
             </div>
             <div className="skill">
-              <h3>Skills</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
-                soluta voluptatem consequuntur earum, sapiente ratione natus
-                facilis iusto ipsa doloremque, iure, accusantium eaque
-                obcaecati. Suscipit nemo exercitationem totam amet quas Lorem
-                ipsum, dolor sit amet consectetur adipisicing elit. Dicta,
-                voluptatem natus. Molestias. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Obcaecati et facere a, dolores
-                distinctio nam debitis, hic, repudiandae iure sunt repellendus
-                cumque assumenda dignissimos impedit vero ullam. Officia, fugit
-                corporis?
-              </p>
+              <h3>Skills and Tecnologies</h3>
+                <span className="skills-heading">In my journey as a full-stack web developer, I've embraced a wide array of technologies to bring ideas to life and solve complex problems. Here are some of the key technologies I leverage:</span>
             </div>
-            <div className="tools">
-              <h3>Technologies</h3>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam
-                soluta voluptatem consequuntur earum, sapiente ratione natus
-                facilis iusto ipsa doloremque, iure, accusantium eaque
-                obcaecati. Suscipit nemo exercitationem totam amet quas Lorem
-                ipsum, dolor sit amet consectetur adipisicing elit. Dicta,
-                voluptatem natus. Molestias. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Obcaecati et facere a, dolores
-                distinctio nam debitis, hic, repudiandae iure sunt repellendus
-                cumque assumenda dignissimos impedit vero ullam. Officia, fugit
-                corporis?
-              </p>
+            <div className="skill-container">
+              <h4>Frontend Development:</h4>
+              <ul>
+                <li>Reat.js</li>
+                <li>Next.js</li>
+                <li>HTML5, CSS3, SCSS</li>
+                <li>JavaScript (ES6+)</li>
+                <li>Boostrap</li>
+              </ul>
+            </div>
+            <div className="skill-container">
+              <h4>Backend Development:</h4>
+              <ul>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>Prisma</li>
+                <li>MongoDB, MySQL, PostgreSQL, Supabase, SqLite</li>
+                <li>Boostrap</li>
+              </ul>
+            </div>
+            <div className="skill-container">
+              <h4>Version Control & Deployment:</h4>
+              <ul>
+                <li>Git / GitHub / GitLab</li>
+                <li>Heroku</li>
+                <li>Netlify</li>
+                <li>Boostrap</li>
+              </ul>
             </div>
           </div>
         </div>
