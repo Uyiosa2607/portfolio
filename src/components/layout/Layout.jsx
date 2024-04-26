@@ -13,6 +13,7 @@ export default function AppLayout({children}){
                 {children}
             </div>
          </Container>
+         <p style={{textAlign: "center", fontSize: "10px", textDecoration: "underline", padding: "8px"}}><a href="https://github.com/Uyiosa2607/portfolio">Powered by Next.js, built with Love❤️</a></p>
        </div>
     )
 }
