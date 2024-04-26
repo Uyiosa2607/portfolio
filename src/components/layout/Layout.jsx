@@ -3,7 +3,7 @@ import "./style.scss"
 import Container from '@mui/material/Container';
 import Header from '../header/Header';
 
-export default function Layout({children}){
+export default function AppLayout({children}){
 
     return (
        <div className="layout">

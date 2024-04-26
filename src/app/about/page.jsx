@@ -1,11 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
-import Layout from "@/components/layout/Layout";
+import AppLayout from "@/components/layout/Layout";
 import Image from "next/image";
 import "./about.scss";
 
 export default function About() {
   return (
-    <Layout>
+    <AppLayout>
       <main className="about">
         <div className="about-left-div">
           <div
@@ -70,6 +70,6 @@ export default function About() {
           </div>
         </div>
       </main>
-    </Layout>
+    </AppLayout>
   );
 }

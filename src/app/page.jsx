@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
-import Layout from "@/components/layout/Layout";
+import AppLayout from "@/components/layout/Layout";
 import Link from "next/link";
 import styles from "./page.module.css";
 import Footer from "@/components/footer/Footer";
@@ -8,7 +8,7 @@ import Footer from "@/components/footer/Footer";
 export default function Home() {
 
   return (
-    <Layout>
+    <AppLayout>
       <main className={styles.main}>
         <div className={`${styles["flex-div"]} ${styles["left-div"]}`}>
           <h2 className={styles.heading}>I'm a web Developer</h2>
@@ -39,6 +39,6 @@ export default function Home() {
         </div>
       </main>
       <Footer/>
-    </Layout>
+    </AppLayout>
   );
 }
