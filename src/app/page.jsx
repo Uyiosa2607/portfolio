@@ -1,17 +1,16 @@
 /* eslint-disable @next/next/no-img-element */
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
-import styles from "./page.module.scss";
+import styles from "./page.module.css";
 
 export default function Home() {
 
-  console.log(styles)
   return (
     <Layout>
       <main className={styles.main}>
         <div className={`${styles["flex-div"]} ${styles["left-div"]}`}>
-          <h2>Full Stack web Developer</h2>
-          <p>
+          <h2 className={styles.heading}>Full Stack web Developer</h2>
+          <p className={styles.paragraph}>
             Meet a passionate developer crafting seamless solutions that
             redefine user experiences. With a keen eye for detail and a
             commitment to innovation
