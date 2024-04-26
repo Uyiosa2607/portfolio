@@ -11,7 +11,7 @@ export default function Home() {
     <AppLayout>
       <main className={styles.main}>
         <div className={`${styles["flex-div"]} ${styles["left-div"]}`}>
-          <h2 className={styles.heading}>I'm a web Developer</h2>
+          <h2 className={styles.heading}>Hello 🖐️, I'm a web Developer</h2>
           <p className={styles.paragraph}>
             Meet a passionate developer crafting seamless solutions that
             redefine user experiences. With a keen eye for detail and a

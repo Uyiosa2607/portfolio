@@ -22,7 +22,7 @@
 }
  .heading {
   text-transform: capitalize;
-  font-size: 4rem;
+  font-size: 3.6rem;
   font-weight: 700;
   font-family: "Rubik Mono One", monospace;
 }
@@ -44,8 +44,8 @@
 @media screen and (max-width:400px) {
   .heading {
      margin-top: 40px;
-     font-size: 1.6rem;
-     text-align: center;
+     font-size: 1.8rem;
+     /* text-align: center; */
    }
  }
 
