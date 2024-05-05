@@ -4,14 +4,24 @@
     position: relative;
 
     .navbar {
+
+        .wrapper {
+            display: flex;
+            width: 85%;
+            margin: 0 auto;
+            justify-content: flex-end;
+            align-items: center;
+
+            @media screen and (max-width:600px){
+                justify-content: center;
+            }
+        }
+
         padding-top: 1px;
-        display: flex;
-        align-items: center;
         position: fixed;
         top: 0;
         left: 0;
         width: 100%;
-        justify-content: flex-end;
         background: #ffffff;
         padding: 10px;
 
@@ -50,6 +60,12 @@
                 background: #1e1d1d;
                 color: #ffffff;
                 font-size: 14px;
+
+                @media screen and (max-width:600px){
+                    padding: unset;
+                    background: unset;
+                    color: #1e1d1d;
+                }
 
                 &:hover {
                     background: #ffffff;
