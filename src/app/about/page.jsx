@@ -43,7 +43,7 @@ export default function About() {
             <div className="skill-container">
               <h4>Frontend Development:</h4>
               <ul>
-                <li>Reat.js</li>
+                <li>React.js</li>
                 <li>Next.js</li>
                 <li>HTML5, CSS3, SCSS</li>
                 <li>JavaScript (ES6+)</li>
