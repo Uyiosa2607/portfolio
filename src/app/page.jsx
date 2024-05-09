@@ -27,7 +27,6 @@ export default function Home() {
               className={styles["hero-img"]}
               style={{
                 marginTop: "18px",
-                background: "#dddddd",
                 objectFit: "cover",
                 borderRadius: "50%",
               }}
