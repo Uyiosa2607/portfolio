@@ -52,7 +52,7 @@
  .paragraph {
   width: 100%;
   margin: 10px 0;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -63,6 +63,7 @@
 .paragraph {
     margin: 10px auto;
     width: 100%;
+    margin-bottom: 50px;
   }
 }
  .hero-button {
@@ -122,11 +123,13 @@
 }
 .hero-img {
   margin: 0 auto;
+  width: 320px;
+  height: 320px;
 }
 @media screen and (max-width: 600px) {
  .hero-img {
-    width: 100px;
-    height: 100px;
+    width: 220px;
+    height: 220px
   }
 }
 .hero-image-container {
