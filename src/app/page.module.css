@@ -52,10 +52,12 @@
  .paragraph {
   width: 100%;
   margin: 10px 0;
+  margin-bottom: 40px;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.1;
-  text-align: justify;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  /* text-align: justify; */
 }
 @media screen and (max-width: 600px) {
 .paragraph {
@@ -72,6 +74,7 @@
 .hero-button {
     /* text-align: center; */
     width: 100%;
+    margin-top: 50px;
     justify-content: center;
   }
 }

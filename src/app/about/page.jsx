@@ -33,7 +33,7 @@ export default function About() {
             <div className="about-me">
               <h3>About me</h3>
               <p>
-              I'm <span className="dev-name">Uyiosa</span>, a MERN stack developer passionate about crafting dynamic web applications. With expertise in MongoDB, Express.js, React.js, and Node.js, I specialize in building robust and scalable solutions that elevate user experiences. Let's turn your ideas into reality together.
+              I'm <span className="dev-name">Uyiosa</span>, a MERN Stack Developer passionate about crafting dynamic Web Applications. With expertise in MongoDB, Express.js, React.js, and Node.js, I specialize in building robust and scalable solutions that elevate user experiences. Let's turn your ideas into reality together.
               </p>
             </div>
             <div className="skill">

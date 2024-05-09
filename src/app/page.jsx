@@ -18,7 +18,7 @@ export default function Home() {
             commitment to innovation
           </p>
           <div className={styles["hero-button"]}>
-            <Link className="link-com" href="/my-projects"><button className={styles["hero-btn"]}>view projects</button></Link>
+            <Link className="link-com" href="/my-projects"><button className={styles["hero-btn"]}>see my works</button></Link>
           </div>
         </div>
         <div className={`${styles["flex-div"]} ${styles["right-div"]}`} >
@@ -28,6 +28,7 @@ export default function Home() {
               style={{
                 marginTop: "18px",
                 height: "320px",
+                background: "#dddddd",
                 width: "320px",
                 objectFit: "cover",
                 borderRadius: "50%",
