@@ -10,23 +10,27 @@ export default function Home() {
       <main className="pt-[8rem] mb-[7rem]">
         <div className="container mx-auto">
           <div className="flex">
-            <div className="flex-1">
-              <h2>Hello 🖐️, I&apos;m a web Developer</h2>
-              <p>
+            <div className="flex-1 flex justify-center  ml-8 flex-col">
+              <h2 className="text-4xl font-bold mb-6">
+                Hello 🖐️, I&apos;m a web Developer
+              </h2>
+              <p className="mb-4 leading-1 w-[70%]">
                 Meet a passionate developer crafting seamless solutions that
                 redefine user experiences. With a keen eye for detail and a
                 commitment to innovation
               </p>
               <div>
                 <Link className="link-com" href="/my-projects">
-                  <button>see my works</button>
+                  <button className="text-sm text-white bg-black outline-none border-none capitalize font-semibold py-[18px] px-[40px] rounded-md">
+                    see my works
+                  </button>
                 </Link>
               </div>
             </div>
             <div className="flex-1">
               <div>
                 <Image
-                  className="w-full h-auto"
+                  className="w-[100%] h-auto"
                   src="/img/avatar.png"
                   alt="avatar"
                   height={1000}
