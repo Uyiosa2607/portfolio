@@ -1,7 +1,8 @@
+import Header from "@/components/header/Header";
 export default function Contact() {
   return (
-    <main className="contact">
-      <h4 className="page-info">Page is under contruction</h4>
+    <main className="container mx-auto">
+      <h1>This is contact page</h1>
     </main>
   );
 }
