@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <div className="p-3">
+    <div className="p-3 fixed w-full top-0 left-0 bg-white">
       <div className="container mx-auto">
         <div className="flex items-center w-full justify-between">
           <div className="flex-1">
