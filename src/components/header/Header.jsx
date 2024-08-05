@@ -13,7 +13,7 @@ export default function Header() {
   }
 
   return (
-    <main className="sticky p-3 bg-gray-100 w-[100%] top-0 left-0 bg-transparent z-100 overflow-x-clip">
+    <main className="sticky p-3 bg-gray-100 w-[100%] top-0 left-0 z-100 overflow-x-clip">
       <div className="container px-1 mx-auto">
         <div className="flex items-center w-full justify-between">
           <div className="flex-[1.5] flex items-center gap-2">
