@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <main className="container mx-auto mt-10">
-      <div className="flex gap-10 h-fit w-fit">
+    <main className="container text-base px-4 mx-auto mt-10">
+      <div className="flex flex-col md:flex-row gap-10 h-fit w-fit">
         <div className="flex-1">
-          <div className="p-2 flex items-center justify-cente">
+          <div className="p-2 flex items-center justify-center">
             <Image
-              className="w-[380px] h-[360px] rounded-full bg-gray-200 object-cover"
+              className="w-full h-auto md:w-[380px] md:h-[360px] rounded-full md:bg-gray-200 object-cover"
               src="/img/steve.png"
               width="1000"
               height="1000"
@@ -19,18 +19,17 @@ export default function About() {
           <div>
             <div>
               <h3 className="text-4xl mb-4 font-semibold">About me</h3>
-              <p className="text-md leading-[1.5] mb-2">
-                I&apos;m <span className="dev-name">Uyiosa</span>, a MERN Stack
-                Developer passionate about crafting dynamic Web Applications.
-                With expertise in MongoDB, Express.js, React.js, and Node.js, I
-                specialize in building robust and scalable solutions that
-                elevate user experiences. Let&apos;s turn your ideas into
-                reality together.
+              <p className="text-md font-normal leading-[1.5] mb-2">
+                I&apos;m <span>Uyiosa</span>, a MERN Stack Developer passionate
+                about crafting dynamic Web Applications. With expertise in
+                MongoDB, Express.js, React.js, and Node.js, I specialize in
+                building robust and scalable solutions that elevate user
+                experiences. Let&apos;s turn your ideas into reality together.
               </p>
             </div>
             <div>
               <h3 className="font-semibold text-xl">Skills and Tecnologies</h3>
-              <span>
+              <span className="text-base font-normal">
                 In my journey as a full-stack web developer, I&apos;ve embraced
                 a wide array of technologies to bring ideas to life and solve
                 complex problems. Here are some of the key technologies I

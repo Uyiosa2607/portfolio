@@ -31,7 +31,7 @@ export default function Footer() {
   return (
     <main>
       <div className="container mx-auto">
-        <div className="w-[25%] mx-auto flex items-center justify-between">
+        <div className="w-[50%] md:w-[25%] mx-auto flex items-center justify-between">
           {logos.map((logo) => (
             <div
               className="bg-black w-fit h-fit p-2 rounded-full"
